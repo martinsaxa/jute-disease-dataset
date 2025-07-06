@@ -1,0 +1,10 @@
+[project]
+name = "jute-disease-dataset"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "scikit-learn>=1.7.0",
+    "wandb>=0.21.0",
+]
