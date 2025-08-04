@@ -10,4 +10,23 @@ Those models have been tested:
 ## Results
 
 All models have been trained for 25 epochs. Multiple learning rates have been applied.
-![bar_test_accuracy.png](Accuracy)
+
+### Accuracy
+
+![Accuracy](bar_test_accuracy.png)
+
+### F1
+
+![F1](bar_test_f1.png)
+
+## Local environment
+
+This project uses [UV](https://github.com/astral-sh/uv) package manager.
+
+```python
+uv install
+uv run main.py
+
+# you can visualize results via tensorboard
+uv run tensorboard --logdir=runs
+```
